@@ -2,6 +2,21 @@ POST http://localhost:3000/api/users/login
 Content-Type: application/json
 
 {
-    "password": "password",
-    "email": "jake@jake.jake"
+    "email": "jake@jake.jake",
+    "password": "123456"
 }
+
+
+####
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "email": "jake@jake.jake",
+    "username": "jake",
+    "password": "123456"
+
+}
+
+
+####
