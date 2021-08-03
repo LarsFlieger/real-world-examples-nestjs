@@ -19,3 +19,8 @@ export class RegisterDTO extends LoginDTO {
     username: string
 }
 
+
+
+export interface AuthPayload {
+    username: string
+}
